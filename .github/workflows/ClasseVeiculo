@@ -13,7 +13,7 @@ public class Veiculo {
 		
 		TotalCombustível=TotalCombustível+litros;
 		System.out.printf("Soma total de litros de combustível consumidos: %s\n", TotalCombustível);
-			
+		
 		Média=TotalQuilômetros/TotalCombustível;
 		System.out.printf("Média do consumo: %s\n", Média);
 	}
