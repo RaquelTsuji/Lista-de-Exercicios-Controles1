@@ -17,7 +17,6 @@ public class MainVeiculo {
 			
 			
 		while (quilometros != -1 && litros != -1) {
-			 
 			
 			Veículo Automóvel = new Veículo(quilometros, litros, i);
 			i=i++;
