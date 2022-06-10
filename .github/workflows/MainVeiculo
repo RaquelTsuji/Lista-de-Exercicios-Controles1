@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class MainVeiculo {
+	public static int quilometros;
+	public static int litros;
+	public static int i=1;
+	
+	public static void main(String[] args) {
+	    Scanner entradadados = new Scanner(System.in);
+	    System.out.print ("Informe os quilômetros dirigidos ou -1 para sair: ");
+			quilometros = entradadados.nextInt();
+			
+		System.out.print ("Informe os litros de gasolina consumidos ou -1 para sair: ");
+			litros = entradadados.nextInt();
+			
+		System.out.print("\nInformações inseridas pelo motorista");
+			System.out.printf("\nQuilômetros: %s \nCombustível: %s\n", quilometros, litros);
+			
+			
+		while (quilometros != -1 && litros != -1) {
+			 
+			
+			Veículo Automóvel = new Veículo(quilometros, litros, i);
+			i=i++;
+			
+			System.out.print ("\n");
+		}
+	}
+}
